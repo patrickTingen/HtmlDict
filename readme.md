@@ -29,24 +29,24 @@ RUN D:\data\progress\htmldict\launch.p
 
 Each database processed will generate a subdirectory inside the basedir with web pages, each corresponding to one of the tables within the dataBase. Additionally, some extra 00-*.* files will be created:
 
-| File              | Description                                                                                                   |
-| ----------------  | ------------------------------------------------------------------------------------------------------------- |
-| 00-area.html      | overview of the areas of the database                                                                         |
-| 00-cross.html     | cross-index of the fieldnames in the db.                                                                      |
-| 00-index.html     | frameset                                                                                                      |
-| 00-list.html      | list of file names (left frame)                                                                               |
-| 00-main.html      | main page with a list of the files in the db and their description (right frame)                              |
-| 00-crc.txt        | list of crc's for all the files in the database to determine whether the schema should be regenerated or not. |
-| 00-primeindex.txt | list with all single-field primary indexes. Used to provide a link to the 'master table' of a given field     |
+|File              |Description                                                                                                   |
+|----------------  |------------------------------------------------------------------------------------------------------------- |
+|00-area.html      |overview of the areas of the database                                                                         |
+|00-cross.html     |cross-index of the fieldnames in the db.                                                                      |
+|00-index.html     |frameset                                                                                                      |
+|00-list.html      |list of file names (left frame)                                                                               |
+|00-main.html      |main page with a list of the files in the db and their description (right frame)                              |
+|00-crc.txt        |list of crc's for all the files in the database to determine whether the schema should be regenerated or not. |
+|00-primeindex.txt |list with all single-field primary indexes. Used to provide a link to the 'master table' of a given field     |
 
 In the main directory the following files are created:
 
-| File              | Description                            |
-|-----------------  |----------------------------------------|
-| 00-index.html     | Main entry point for the list of db's. |
-| HtmlDict.html     | Page with version info.                |
-| HtmlDict.ico      | Icon file for the webpages             |
-| styles.css        | Cascaded style sheet for the database. |
+|File              |Description                            |
+|----------------  |---------------------------------------|
+|00-index.html     |Main entry point for the list of db's. |
+|HtmlDict.html     |Page with version info.                |
+|HtmlDict.ico      |Icon file for the webpages             |
+|styles.css        |Cascaded style sheet for the database. |
 
 The tool generates a subdirectory for each database it processes and at the end of a generation process a new main page is generated, holding links to all direcotories.
 All elements in the stylesheets that already exist will not be touched. If elements are missing, they are added. This allows users to modify the stylesheet once without the need to re-modify it after each run. 
