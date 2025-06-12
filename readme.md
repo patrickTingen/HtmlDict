@@ -19,7 +19,7 @@ Tom Bascom, dated 11 jan 1996. Many thanks go to these guys for the basic idea.
 ![HtmlDict screenshot](https://github.com/patrickTingen/HtmlDict/blob/main/screenshot-salesrep.png "Details of table Salesrep")
 
 ### Cross index for fields
-![HtmlDict screenshot](https://github.com/patrickTingen/HtmlDict/blob/main/screenshot-crossref.png "Cross index for fields)
+![HtmlDict screenshot](https://github.com/patrickTingen/HtmlDict/blob/main/screenshot-crossref.png "Cross index for fields")
 
 ## How to install:
 
