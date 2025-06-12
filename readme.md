@@ -11,9 +11,15 @@ switching to the data dictionary.
 HtmlDict is based on the updated version from 3 oct 2002 from Jeff Pilant, which, in turn, was based on the original version from 
 Tom Bascom, dated 11 jan 1996. Many thanks go to these guys for the basic idea.
 
-## Screenshot
+## Screenshots
+### Main HTML page
 ![HtmlDict screenshot](https://github.com/patrickTingen/HtmlDict/blob/main/screenshot.png "HtmlDict Screenshot")
-![HtmlDict screenshot](https://github.com/patrickTingen/HtmlDict/blob/main/screenshot-salesrep.png "HtmlDict Screenshot for table Salesrep")
+
+### Table salesrep
+![HtmlDict screenshot](https://github.com/patrickTingen/HtmlDict/blob/main/screenshot-salesrep.png "Details of table Salesrep")
+
+### Cross index for fields
+![HtmlDict screenshot](https://github.com/patrickTingen/HtmlDict/blob/main/screenshot-crossref.png "Cross index for fields)
 
 ## How to install:
 
