@@ -12,7 +12,10 @@ HtmlDict is based on the updated version from 3 oct 2002 from Jeff Pilant, which
 Tom Bascom, dated 11 jan 1996. Many thanks go to these guys for the basic idea.
 
 ## Screenshots
-### Main HTML page
+### Starting page with databases
+![HtmlDict screenshot](https://github.com/patrickTingen/HtmlDict/blob/main/screenshot-mainpage.png "HtmlDict Screenshot")
+
+### Main Sports page
 ![HtmlDict screenshot](https://github.com/patrickTingen/HtmlDict/blob/main/screenshot.png "HtmlDict Screenshot")
 
 ### Table salesrep
