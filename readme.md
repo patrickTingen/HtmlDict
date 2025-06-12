@@ -29,6 +29,7 @@ RUN D:\data\progress\htmldict\launch.p
 
 Each database processed will generate a subdirectory inside the basedir with web pages, each corresponding to one of the tables within the dataBase. Additionally, some extra 00-*.* files will be created:
 
+| File              | Description                                                                                                   |
 | ----------------  | ------------------------------------------------------------------------------------------------------------- |
 | 00-area.html      | overview of the areas of the database                                                                         |
 | 00-cross.html     | cross-index of the fieldnames in the db.                                                                      |
@@ -40,6 +41,7 @@ Each database processed will generate a subdirectory inside the basedir with web
 
 In the main directory the following files are created:
 
+| File              | Description                            |
 |-----------------  |----------------------------------------|
 | 00-index.html     | Main entry point for the list of db's. |
 | HtmlDict.html     | Page with version info.                |
