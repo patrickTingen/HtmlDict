@@ -13,6 +13,7 @@ Tom Bascom, dated 11 jan 1996. Many thanks go to these guys for the basic idea.
 
 ## Screenshot
 ![HtmlDict screenshot](https://github.com/patrickTingen/HtmlDict/blob/main/screenshot.png "HtmlDict Screenshot")
+![HtmlDict screenshot](https://github.com/patrickTingen/HtmlDict/blob/main/screenshot-salesrep.png "HtmlDict Screenshot for table Salesrep")
 
 ## How to install:
 
