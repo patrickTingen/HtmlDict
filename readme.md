@@ -11,6 +11,8 @@ switching to the data dictionary.
 HtmlDict is based on the updated version from 3 oct 2002 from Jeff Pilant, which, in turn, was based on the original version from 
 Tom Bascom, dated 11 jan 1996. Many thanks go to these guys for the basic idea.
 
+## Screenshot
+![HtmlDict screenshot](https://github.com/patrickTingen/HtmlDict/blob/main/screenshot.png "HtmlDict Screenshot")
 
 ## How to install:
 
@@ -19,25 +21,14 @@ Extract the contents of the zipfile to a dir. Keep path names as defined in the 
 
 ## How to run:
 
-Open your editor, and run "launch.p" with a fully
-specified path. If you installed HtmlDict to
+Open your editor, and run "launch.p" with a fully specified path. If you installed HtmlDict to
 D:\data\progress\htmldict then you should use:
+```
 RUN D:\data\progress\htmldict\launch.p
+```
 
 
 ## Results
-
-Each database processed will generate a subdirectory inside the basedir with web pages, each corresponding to one of the tables within the dataBase. Additionally, some extra 00-*.* files will be created:
-
-|File              |Description                                                                                                   |
-|----------------  |------------------------------------------------------------------------------------------------------------- |
-|00-area.html      |overview of the areas of the database                                                                         |
-|00-cross.html     |cross-index of the fieldnames in the db.                                                                      |
-|00-index.html     |frameset                                                                                                      |
-|00-list.html      |list of file names (left frame)                                                                               |
-|00-main.html      |main page with a list of the files in the db and their description (right frame)                              |
-|00-crc.txt        |list of crc's for all the files in the database to determine whether the schema should be regenerated or not. |
-|00-primeindex.txt |list with all single-field primary indexes. Used to provide a link to the 'master table' of a given field     |
 
 In the main directory the following files are created:
 
@@ -48,8 +39,20 @@ In the main directory the following files are created:
 |HtmlDict.ico      |Icon file for the webpages             |
 |styles.css        |Cascaded style sheet for the database. |
 
-The tool generates a subdirectory for each database it processes and at the end of a generation process a new main page is generated, holding links to all direcotories.
-All elements in the stylesheets that already exist will not be touched. If elements are missing, they are added. This allows users to modify the stylesheet once without the need to re-modify it after each run. 
+Then, a subfolder is created for each database it processes, holding the generated .html files and these extra files:
+
+|File              |Description                                                                                                   |
+|----------------  |------------------------------------------------|
+|00-area.html      |overview of the areas of the database           |
+|00-cross.html     |cross-index of the fieldnames in the db.        |
+|00-index.html     |frameset                                        |
+|00-list.html      |list of file names (left frame)                 |
+|00-main.html      |main page with a list of the files              |
+|00-crc.txt        |list of crc's for all the files in the database |
+|00-primeindex.txt |list with all single-field primary indexes.     |
+
+Your entry point to the generated pages is *HtmlDict.html* in the main folder. 
+
 
 ## Autostart
 
